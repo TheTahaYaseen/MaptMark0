@@ -1,3 +1,26 @@
 #:kivy 2.0.0
 
-RegistrationLayout:
+# Variables
+
+#:set font "Font\static\SpaceGrotesk.ttf"
+#:set font_thin "Font\static\SpaceGrotesk-Light.ttf"
+#:set font_regular "Font\static\SpaceGrotesk-Regular.ttf"
+#:set font_medium "Font\static\SpaceGrotesk-Medium.ttf"
+#:set font_semibold "Font\static\SpaceGrotesk-SemiBold.ttf"
+#:set font_bold "Font\static\SpaceGrotesk-Bold.ttf"
+
+MainLayout:
+    RegistrationLayout:
+
+<RegistrationLayout>:
+    orientation: "vertical"
+    padding: [25, 25, 25, 25]
+
+    TextInput:
+        id: Username
+        text: "Username"
+        multiline: False
+
+
+    Button:
+        
